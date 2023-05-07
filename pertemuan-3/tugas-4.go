@@ -1,20 +1,36 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
-	var kelahiran = 2000
-	if kelahiran > 1944 && kelahiran < 1964 {
-		fmt.Println("Baby boomer, kelahiran 1944 s.d 1964")
-	} else if kelahiran > 1965 && kelahiran < 1979 {
-		fmt.Println("Generasi X. Kelahiran 1965 s.d 1979")
-	} else if kelahiran > 1980 && kelahiran < 1994 {
-		fmt.Println("Generasi Y (Millenials), kelahiran 1980 s.d 1994")
-	} else if kelahiran > 1995 && kelahiran < 2015 {
-		fmt.Println("Generasi Z, kelahiran 1995 s.d 2015")
+	var nilaiJohn = 80
+	var nilaiDoe = 50
+
+	if nilaiJohn >= 80 {
+		fmt.Println("A")
+	} else if nilaiJohn >= 70 && nilaiJohn < 80 {
+		fmt.Println("B")
+	} else if nilaiJohn >= 60 && nilaiJohn < 70 {
+		fmt.Println("C")
+	} else if nilaiJohn >= 50 && nilaiJohn < 60 {
+		fmt.Println("D")
+	} else if nilaiJohn < 50 {
+		fmt.Println("E")
 	} else {
-		fmt.Println("salah ah inputna")
+		fmt.Println("wrong option")
+	}
+
+	if nilaiDoe >= 80 {
+		fmt.Println("A")
+	} else if nilaiDoe >= 70 && nilaiDoe < 80 {
+		fmt.Println("B")
+	} else if nilaiDoe >= 60 && nilaiDoe < 70 {
+		fmt.Println("C")
+	} else if nilaiDoe >= 50 && nilaiDoe < 60 {
+		fmt.Println("D")
+	} else if nilaiDoe < 50 {
+		fmt.Println("E")
+	} else {
+		fmt.Println("wrong option")
 	}
 }
