@@ -40,6 +40,6 @@ func main() {
 	addToBuah(&buah, "Alpukat")
 
 	for i, item := range buah {
-		fmt.Println(i+1, item)
+		fmt.Printf("%d. %s \n", i+1, item)
 	}
 }
