@@ -1,0 +1,18 @@
+/* terdapat kode pemanggilan function seperti di bawah ini
+fmt.Println(kelilingSegitigaSamaSisi(4, true))
+fmt.Println(kelilingSegitigaSamaSisi(8,
+false))
+fmt.Println(kelilingSegitigaSamaSisi(0, true))
+fmt.Println(kelilingSegitigaSamaSisi(0,
+false))
+buatlah function yang returnnya string dan error, dengan kondisi:
+1. jika parameter kedua bernilai true maka tampilkan kalimat (asumsi sisinya 2) "keliling
+segitiga sama sisinya dengan sisi 2 cm adalah 6 cm"
+2. jika parameter kedua bernilai false maka tampilkan hanya hasil string angka saja (misal
+"6")
+3. jika parameter pertama 0 dan parameter kedua bernilai true gunakan error dengan
+message "Maaf anda belum menginput sisi dari segitiga sama sisi"
+4. jika parameter pertama 0 dan parameter kedua bernilai false maka tampilkan error
+dengan message "Maaf anda belum menginput sisi dari segitiga sama sisi", beserta
+panic yang sudah di recover
+*/

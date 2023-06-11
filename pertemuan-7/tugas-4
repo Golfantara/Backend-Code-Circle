@@ -1,0 +1,15 @@
+/*
+buatlah variabel seperti di bawah ini
+var phones = []string{}
+buatlah function yang menambahkan data di bawah ini ke variabel phones menggunakan
+pointer:
+● Xiaomi
+● Asus
+● IPhone
+● Samsung
+● Oppo
+● Realme
+● Vivo
+lalu urutkan data phones tampilkan satu persatu selama per-detik dan sisipkan angka di depan
+masing-masing data sehingga menghasilkan output seperti ini:
+*/

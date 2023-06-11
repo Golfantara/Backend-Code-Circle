@@ -1,0 +1,13 @@
+/*
+buatlah kode pemanggilan function seperti di bawah ini:
+// deklarasi variabel angka ini simpan di baris pertama func
+main
+angka := 1
+defer cetakAngka(&angka)
+tambahAngka(7, &angka)
+tambahAngka(6, &angka)
+tambahAngka(-1, &angka)
+tambahAngka(9, &angka)
+buatlah function tambahAngka, lalu tampilkan total angka dengan function cetakAngka yang
+dipanggil menggunakan defer function yang di panggil duluan di func main.
+*/
